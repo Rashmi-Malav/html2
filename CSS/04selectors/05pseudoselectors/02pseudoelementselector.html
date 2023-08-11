@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo element selector</title>
+    <style>
+        h2::before{
+            content: "~";
+        }
+        h2::after{
+            content: "!";
+        }
+        p::first-letter{
+            font-size: 50px;
+            color: blue;
+        }
+        p::first-line{
+            color: aqua;
+        }
+        p::selection{
+            background-color: brown;
+            color: palevioletred;
+        }
+    </style>
+</head>
+<body>
+    <h2>Pseudo element selector </h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum quibusdam, id animi, corporis alias quae distinctio quidem libero pariatur, nihil officiis iure tempore consectetur facere. Harum, labore debitis. Rerum, sequi?</p>
+</body>
+</html>

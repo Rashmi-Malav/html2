@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child selector</title>
+    <style>
+        .parent>p{
+            background-color: aqua;
+            color: brown;
+        }
+        .child>p{
+            background-color: bisque;
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h3>child selector (>)</h3>
+    <div class="parent">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+         <div class="child">
+           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+         </div>
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+       </div>
+</body>
+</html>
