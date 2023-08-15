@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background</title>
+    <style>
+        div{
+            height: 400px;
+            border: 10px dashed gray;
+            margin: 20px;
+            box-sizing: border-box;
+        }
+        .Background-attachment{
+            background-image: url(../Images/tree\ banner.jpg);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+        .Background-clip{
+            background-image: url(../Images/tree\ banner.jpg);
+            padding: 20px;
+            background-repeat: no-repeat;
+            background-clip: border-box;
+            background-clip: padding-box;
+            background-clip: content-box;
+        }
+        .Background-origin{
+            background-image: url(../Images/tree\ banner.jpg);
+            padding: 20px;
+            background-repeat: no-repeat;
+            background-origin: border-box;
+            background-origin: padding-box;
+            background-origin: content-box;  
+        }
+        .Background-color{
+            padding: 20px;
+            background-repeat: no-repeat;
+            background-color: aqua;  
+        }
+        .Background-image{
+            background-image: url(../Images/breakfast.jpg);
+            background-repeat:no-repeat;
+            background-size: cover;
+        }
+        .Background-position{
+            background-image: url(../Images/breakfast.jpg);
+            background-repeat:no-repeat;
+            /* background-size: cover; */
+            background-position: center;
+            background-position: left;
+            background-position: right;
+            background-position: 50px 100px;
+        }
+        .Background-repeat{
+            background-image: url(../Images/breakfast.jpg);
+            background-repeat:no-repeat;
+        }
+        .Background-size{
+            background-image: url(../Images/breakfast.jpg);
+            background-repeat:no-repeat;
+            background-size: contain;
+            background-size: cover;
+        }
+        .Background-shorthand{
+            background: url(../Images/breakfast.jpg) no-repeat center center/cover;
+        
+        }
+        .Background-multiple{
+            background-image: url(../Images/breakfast.jpg),url(../Images/tree\ banner.jpg);
+            background-size: 200px,cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: scroll,fixed;
+        }
+    </style>
+</head>
+<body>
+    <h1>Background in HTML</h1>
+    <ol>
+        <li>Background-attachment</li>
+        <li>Background-clip</li>
+        <li>Background-origin</li>
+        <li>Background-color</li>
+        <li>Background-image</li>
+        <li>Background-position</li>
+        <li>Background-repeat</li>
+        <li>Background-size</li>
+        <li>Background-shorthand</li>
+    </ol>
+    <div class="Background-attachment"></div>
+    <div class="Background-clip"></div>
+    <div class="Background-origin"></div>
+    <div class="Background-color"></div>
+    <div class="Background-image"></div>
+    <div class="Background-position">Position</div>
+    <div class="Background-repeat"></div>
+    <div class="Background-size"></div>
+    <div class="Background-shorthand"></div>
+    <div class="Background-multiple"></div>
+</body>
+</html>
