@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background-color: brown;
+    color: bisque;
+    height: 100px;
+    text-align: center;
+    padding-top: 40px;
+}
+.Movie{
+    background-color: bisque;
+}
+label{
+    padding-left: 20px;
+}
+#female{
+    margin-left: 100px;
+}
+#male{
+    margin-left: 80px;
+}
+#others{
+    margin-left: 285px;
+}
+#prefer{
+    margin-left: 285px;
+}
+#age{
+    margin-left: 130px;
+}
