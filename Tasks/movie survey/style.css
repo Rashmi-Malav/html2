@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}   
+.container{
+    width: 50%;
+    margin: auto;
+    
+}
+.heading{
+    background-color: aqua;
+    width: 100%;
+    height: 130px;
+    text-align: center;
+    padding-top: 44px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: aliceblue;
+    background-color: brown;
+}
+.form{
+    background-color:bisque;
+    padding: 10px;
+}
+/* label{
+    padding: 20px;
+} */
+#female{
+    margin-left: 100px;
+}
+#male{
+    margin-left: 100px;
+}
+#others{
+    margin-left: 18px;
+}
+#prefer{
+    margin-left: 295px;
+}
+#age{
+    margin-left: 130px;
+}
+
+#textarea1{
+    margin-left: 130px;
+    height: 19px;
+}
+        
+.degree,.reasonmovie,.favmovie,.elementmovie,.oftenmovie,.favplacemovie,.lead,.age{
+    margin-top: 20px;
+}
+.degree{
+    padding-bottom: 2px;
+}
+#HighSchool,#Bachelordegree,#Professionaldegree,#other,#ActionandAdventure,#Comedy,#Historical,#ScienceFiction,#other1
+,#Trailers,#Comments,#Recommendation,#Content,#CinematicEffects,#other3,#Extremelyoften,#Moderatelyoften,#Notatall
+,#Cinema,#DVD,#other4,#female-1
+{
+    margin-left: 29px;
+}
+#Associatedegree{
+    margin-left: 200px;
+}
+#Masterdegree{
+    margin-left: 166px;
+}
+#Doctoratedegree{
+    margin-left: 155px;
+}
+
+#Horror{
+    margin-left: 221px;
+}
+#Animation{
+    margin-left: 144px
+}
+#Drama{
+    margin-left: 230px;
+}
+#Western{
+    margin-left: 185px;
+}
+#Advertisements{
+    margin-left: 235px;
+}
+#Cast{
+    margin-left: 214px;
+}
+#other2{
+    margin-left: 171px;
+}
+#Characterization{
+    margin-left: 233px;
+}
+#Soundtrack{
+    margin-left: 168px;
+}
+#veryoften{
+    margin-left: 187px;
+}
+#Slightlyoften{
+    margin-left: 180px;
+}
+#Online{
+    margin-left: 241px;
+}
+#TV{
+    margin-left: 256px;
+}
+#male-1,#doesntmatter{
+    margin-left: 130px;
+}
