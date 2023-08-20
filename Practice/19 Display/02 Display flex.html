@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Felx</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+       
+    }
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .row{
+        border: 1px solid red;
+          display: flex;  
+          /* justify-content: center;
+          justify-items:center ;
+          justify-content: right; */
+          justify-content: space-between;
+          align-items: center;
+          background-color: crimson;
+        }
+    img{
+        width: 70%;
+    }
+    .col-90{
+           border: 1px solid black;
+           width: 90%;
+    }
+    .col-50{
+        border: 1px solid black;
+        width: 50%;
+    }
+    .col-33{
+        border: 1px solid black;
+        width: 33.33%;
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-90">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui cum architecto ipsum aut, sapiente quae ab quisquam ullam accusantium veniam atque laborum, unde deserunt. Expedita quas temporibus numquam eligendi alias!</div>
+            <div class="col-90"><img src="../../Images/tree banner.jpg" alt=""></div>
+        </div>
+        <div class="row">
+            <div class="col-50">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui cum architecto ipsum aut, sapiente quae ab quisquam ullam accusantium veniam atque laborum, unde deserunt. Expedita quas temporibus numquam eligendi alias!</div>
+            <div class="col-50"><img src="../../Images/tree banner.jpg" alt=""></div>
+            <div class="col-50">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui cum architecto ipsum aut, sapiente quae ab quisquam ullam accusantium veniam atque laborum, unde deserunt. Expedita quas temporibus numquam eligendi alias!</div>
+            <div class="col-50"><img src="../../Images/tree banner.jpg" alt=""></div>
+        </div>
+        <div class="row">
+            <div class="col-33">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui cum architecto ipsum aut, sapiente quae ab quisquam ullam accusantium veniam atque laborum, unde deserunt. Expedita quas temporibus numquam eligendi alias!</div>
+            <div class="col-33"><img src="../../Images/tree banner.jpg" alt=""></div>
+            <div class="col-33">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui cum architecto ipsum aut, sapiente quae ab quisquam ullam accusantium veniam atque laborum, unde deserunt. Expedita quas temporibus numquam eligendi alias!</div>
+        </div>
+    </div>
+</body>
+</html>
